@@ -8,7 +8,7 @@ public class Armstrong_Number_Print {
         System.out.println("Armstrong numbers from 0 to "+range+" are:");
 
         for (int i = 0; i <range ; i++) {
-            if(i<10 && i>=0 ){
+            if(i<10){
                 continue;
             }
             String s=Integer.toString(i);
